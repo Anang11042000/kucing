@@ -476,12 +476,10 @@ wget -q -O /usr/bin/info "https://raw.githubusercontent.com/Anang11042000/kucing
 wget -q -O /usr/bin/infoserv "https://raw.githubusercontent.com/Anang11042000/kucing/main/options/infoserv.sh"
 wget -q -O /usr/bin/about "https://raw.githubusercontent.com/Anang11042000/kucing/main/options/about.sh"
 wget -q -O /usr/bin/sslh-fix-reboot "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/sslh-fix/sslh-fix-reboot.sh"
-cd /usr/sbin
 wget -q -O /usr/bin/mesinssh "https://raw.githubusercontent.com/Anang11042000/kucing/main/tools/limit/mesinssh.sh"
 wget -q -O /usr/bin/cek-ssh "https://raw.githubusercontent.com/Anang11042000/kucing/main/tools/limit/cek-ssh.sh"
-chmod +x mesinssh
-chmod +x cek-ssh
-cd /usr/bin
+chmod +x /usr/bin/mesinssh
+chmod +x /usr/bin/cek-ssh
 wget -q -O /usr/bin/loop "https://raw.githubusercontent.com/Anang11042000/kucing/main/tools/limit/loop.sh"
 wget -q -O /usr/bin/matikan "https://raw.githubusercontent.com/Anang11042000/kucing/main/tools/limit/matikan.sh"
 wget -q -O /usr/bin/limit "https://raw.githubusercontent.com/Anang11042000/kucing/main/tools/limit/limit.sh"
