@@ -445,6 +445,7 @@ wget -q https://raw.githubusercontent.com/Anang11042000/kucing/main/backup/set-b
 
 # // Download Data
 echo -e "${GREEN}Download Data${NC}"
+
 wget -q -O /usr/bin/usernew "https://raw.githubusercontent.com/Anang11042000/kucing/main/usernew.sh"
 wget -q -O /usr/bin/add-ws "https://raw.githubusercontent.com/Anang11042000/kucing/main/add-ws.sh"
 wget -q -O /usr/bin/add-ssws "https://raw.githubusercontent.com/Anang11042000/kucing/main/add-ssws.sh"
@@ -478,8 +479,6 @@ wget -q -O /usr/bin/about "https://raw.githubusercontent.com/Anang11042000/kucin
 wget -q -O /usr/bin/sslh-fix-reboot "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/sslh-fix/sslh-fix-reboot.sh"
 wget -q -O /usr/bin/mesinssh "https://raw.githubusercontent.com/Anang11042000/kucing/main/tools/limit/mesinssh.sh"
 wget -q -O /usr/bin/cek-ssh "https://raw.githubusercontent.com/Anang11042000/kucing/main/tools/limit/cek-ssh.sh"
-chmod +x /usr/bin/mesinssh
-chmod +x /usr/bin/cek-ssh
 wget -q -O /usr/bin/loop "https://raw.githubusercontent.com/Anang11042000/kucing/main/tools/limit/loop.sh"
 wget -q -O /usr/bin/matikan "https://raw.githubusercontent.com/Anang11042000/kucing/main/tools/limit/matikan.sh"
 wget -q -O /usr/bin/limit "https://raw.githubusercontent.com/Anang11042000/kucing/main/tools/limit/limit.sh"
@@ -528,6 +527,8 @@ chmod +x /usr/bin/menu-set
 chmod +x /usr/bin/info
 chmod +x /usr/bin/infoserv
 chmod +x /usr/bin/about
+chmod +x /usr/bin/mesinssh
+chmod +x /usr/bin/cek-ssh
 
 #cat > /etc/cron.d/re_otm <<-END
 #SHELL=/bin/sh
