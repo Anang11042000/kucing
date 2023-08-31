@@ -479,8 +479,8 @@ wget -q -O /usr/bin/sslh-fix-reboot "https://raw.githubusercontent.com/fisabiliy
 cd /usr/sbin
 wget -q -O /usr/bin/mesinssh "https://raw.githubusercontent.com/Anang11042000/kucing/main/tools/limit/mesinssh.sh"
 wget -q -O /usr/bin/cek-ssh "https://raw.githubusercontent.com/Anang11042000/kucing/main/tools/limit/cek-ssh.sh"
-chmod +x *
-chmod +x /usr/sbin/*
+chmod +x mesinssh
+chmod +x cek-ssh
 cd /usr/bin
 wget -q -O /usr/bin/loop "https://raw.githubusercontent.com/Anang11042000/kucing/main/tools/limit/loop.sh"
 wget -q -O /usr/bin/matikan "https://raw.githubusercontent.com/Anang11042000/kucing/main/tools/limit/matikan.sh"
@@ -501,8 +501,6 @@ wget -q -O /usr/bin/quota-vless-ws "https://raw.githubusercontent.com/Anang11042
 wget -q -O /usr/bin/quota-vless-grpc "https://raw.githubusercontent.com/Anang11042000/kucing/main/tools/limit/quota-vless-grpc.sh"
 wget -q -O /usr/bin/quota-vmess-orbit "https://raw.githubusercontent.com/Anang11042000/kucing/main/tools/limit/quota-vmess-ws-orbit.sh"
 wget -q -O /usr/bin/quota-vmess-orbit1 "https://raw.githubusercontent.com/Anang11042000/kucing/main/tools/limit/quota-vmess-ws-orbit1.sh"
-chmod +x /usr/bin/*
-cd 
 chmod +x /usr/bin/usernew
 chmod +x /usr/bin/add-ws
 chmod +x /usr/bin/add-ssws
