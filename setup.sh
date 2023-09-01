@@ -678,7 +678,6 @@ Domain: $(cat /etc/xray/domain)
 Waktu Install: $date
 Client Name: $Name
 ==================================
-[ORDER](buttonurl:https://t.me/CRSe7en2nd)
 "
 clear
 curl -s --max-time $TIME -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
