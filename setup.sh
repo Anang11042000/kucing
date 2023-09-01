@@ -653,7 +653,7 @@ systemctl enable quota
 systemctl enable ws-stunnel
 systemctl enable stunnel5
 systemctl enable xray
-systemctl enable udp-custom
+#systemctl enable udp-custom
 #systemctl start client
 systemctl start nginx
 systemctl start quota
