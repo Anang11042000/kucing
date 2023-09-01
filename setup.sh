@@ -647,21 +647,21 @@ rm -fr /root/ssh-vpn.sh
 rm -fr /root/ins-xray.sh
 rm -fr /root/install.sh
 systemctl daemon-reload
-systemctl enable client
+#systemctl enable client
 systemctl enable nginx
 systemctl enable quota
 systemctl enable ws-stunnel
 systemctl enable stunnel5
 systemctl enable xray
 systemctl enable udp-custom
-systemctl start client
+#systemctl start client
 systemctl start nginx
 systemctl start quota
 systemctl start ws-stunnel
 systemctl start stunnel5
 systemctl start xray
-systemctl start udp-custom
-rm -fr /root/*
+#systemctl start udp-custom
+#rm -fr /root/*
 cat > /root/system << END
 END
 history -c
