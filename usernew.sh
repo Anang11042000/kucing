@@ -141,7 +141,7 @@ echo -e "Username     : $Login"
 echo -e "Password     : $Pass"        
 echo -e "CITY         : $(cat /root/.mycity)"
 echo -e "ISP          : $(cat /root/.myisp)"
-echo -e "Host/IP      : $(cat /etc/xray/domain)"
+echo -e "Host/IP      : $domen"
 echo -e "NSDOMAIN     : $(cat /etc/xray/dns)"
 echo -e "PUBKEY       : $(cat /etc/slowdns/server.pub)"
 echo -e "Slowdns      : 53, 5300"
@@ -153,8 +153,8 @@ echo -e "Dropbear     : $db"
 echo -e "SSH-WS       : $portsshws" 
 echo -e "SSH WS SSL   : $wsssl" 
 echo -e "SSL/TLS      : $ssl"         
-echo -e "OVPN TCP     : http://$domain:89/tcp.ovpn"
-echo -e "OVPN UDP     : http://$domain:89/udp.ovpn"
+echo -e "OVPN TCP     : http://$domen:89/tcp.ovpn"
+echo -e "OVPN UDP     : http://$domen:89/udp.ovpn"
 echo -e "BadVpn       : 7300"      
 echo -e ""  
 echo -e "─────────────────────────────────────────────────" | lolcat
@@ -170,7 +170,7 @@ echo -e "      Expired => $exp"
 echo -e "─────────────────────────────────────────────────" | lolcat
 echo -e ""  
 echo -e "┌─────────────────────────────────────────────────┐" | lolcat
-echo -e "│               ANANG VPN                         │" | lolcat
+echo -e "│                        ANANG VPN                         │" | lolcat
 echo -e "└─────────────────────────────────────────────────┘" | lolcat
             
 echo -e ""
